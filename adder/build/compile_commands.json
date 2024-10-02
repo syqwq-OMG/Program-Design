@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/syqwq-omg/syqwq-workspace/Program-Design/adder/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/Adder.dir/hw_10234900421_fullAdder.c.o -c /Users/syqwq-omg/syqwq-workspace/Program-Design/adder/hw_10234900421_fullAdder.c",
-  "file": "/Users/syqwq-omg/syqwq-workspace/Program-Design/adder/hw_10234900421_fullAdder.c",
-  "output": "CMakeFiles/Adder.dir/hw_10234900421_fullAdder.c.o"
-}
-]
