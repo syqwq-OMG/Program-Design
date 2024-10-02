@@ -1,0 +1,1 @@
+/opt/homebrew/bin/aarch64-apple-darwin23-g++-14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/hw_triangle.dir/hw-triangle.cpp.o" -o hw_triangle

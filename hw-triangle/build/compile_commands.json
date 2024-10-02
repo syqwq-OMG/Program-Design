@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/program-design/hw-triangle/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o CMakeFiles/hw_triangle.dir/hw-triangle.cpp.o -c /Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/program-design/hw-triangle/hw-triangle.cpp",
+  "file": "/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/program-design/hw-triangle/hw-triangle.cpp",
+  "output": "CMakeFiles/hw_triangle.dir/hw-triangle.cpp.o"
+}
+]
