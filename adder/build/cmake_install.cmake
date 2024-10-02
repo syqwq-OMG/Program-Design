@@ -1,4 +1,4 @@
-# Install script for directory: /Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder
+# Install script for directory: /Users/syqwq-omg/syqwq-workspace/Program-Design/adder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/syqwq-omg/syqwq-workspace/Program-Design/adder/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

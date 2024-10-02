@@ -2,4 +2,6 @@ cmake_minimum_required(VERSION 3.10)
 
 project(Adder)
 
-add_executable(Adder main.cpp)
+file(GLOB SOURCES "hw_*.c")
+
+add_executable(Adder ${SOURCES})

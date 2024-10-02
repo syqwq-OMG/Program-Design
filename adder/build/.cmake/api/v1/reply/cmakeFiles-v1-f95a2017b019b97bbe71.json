@@ -64,17 +64,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/AppleClang-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/Clang.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -89,17 +79,12 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-Clang.cmake"
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-GNU.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -119,27 +104,22 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/Clang.cmake"
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-Clang.cmake"
+			"path" : "/opt/homebrew/Cellar/cmake/3.30.3/share/cmake/Modules/Platform/Apple-GNU.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -150,8 +130,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder/build",
-		"source" : "/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder"
+		"build" : "/Users/syqwq-omg/syqwq-workspace/Program-Design/adder/build",
+		"source" : "/Users/syqwq-omg/syqwq-workspace/Program-Design/adder"
 	},
 	"version" : 
 	{

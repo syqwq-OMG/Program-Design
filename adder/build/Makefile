@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder
+CMAKE_SOURCE_DIR = /Users/syqwq-omg/syqwq-workspace/Program-Design/adder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder/build
+CMAKE_BINARY_DIR = /Users/syqwq-omg/syqwq-workspace/Program-Design/adder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder/build/CMakeFiles /Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/syqwq-omg/syqwq-workspace/Program-Design/adder/build/CMakeFiles /Users/syqwq-omg/syqwq-workspace/Program-Design/adder/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/syqwq-omg/syqwq-workspace/Program-Design/adder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,29 @@ Adder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Adder.dir/build.make CMakeFiles/Adder.dir/build
 .PHONY : Adder/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+hw_10234900421_fullAdder.o: hw_10234900421_fullAdder.c.o
+.PHONY : hw_10234900421_fullAdder.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Adder.dir/build.make CMakeFiles/Adder.dir/main.cpp.o
-.PHONY : main.cpp.o
+hw_10234900421_fullAdder.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Adder.dir/build.make CMakeFiles/Adder.dir/hw_10234900421_fullAdder.c.o
+.PHONY : hw_10234900421_fullAdder.c.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+hw_10234900421_fullAdder.i: hw_10234900421_fullAdder.c.i
+.PHONY : hw_10234900421_fullAdder.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Adder.dir/build.make CMakeFiles/Adder.dir/main.cpp.i
-.PHONY : main.cpp.i
+hw_10234900421_fullAdder.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Adder.dir/build.make CMakeFiles/Adder.dir/hw_10234900421_fullAdder.c.i
+.PHONY : hw_10234900421_fullAdder.c.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+hw_10234900421_fullAdder.s: hw_10234900421_fullAdder.c.s
+.PHONY : hw_10234900421_fullAdder.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Adder.dir/build.make CMakeFiles/Adder.dir/main.cpp.s
-.PHONY : main.cpp.s
+hw_10234900421_fullAdder.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Adder.dir/build.make CMakeFiles/Adder.dir/hw_10234900421_fullAdder.c.s
+.PHONY : hw_10234900421_fullAdder.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Adder"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... hw_10234900421_fullAdder.o"
+	@echo "... hw_10234900421_fullAdder.i"
+	@echo "... hw_10234900421_fullAdder.s"
 .PHONY : help
 
 

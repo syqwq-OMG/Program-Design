@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/adder/main.cpp" "CMakeFiles/Adder.dir/main.cpp.o" "gcc" "CMakeFiles/Adder.dir/main.cpp.o.d"
+  "/Users/syqwq-omg/syqwq-workspace/Program-Design/adder/hw_10234900421_fullAdder.c" "CMakeFiles/Adder.dir/hw_10234900421_fullAdder.c.o" "gcc" "CMakeFiles/Adder.dir/hw_10234900421_fullAdder.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
