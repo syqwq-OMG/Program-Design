@@ -1,3 +1,0 @@
-/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/program-design/hw-triangle/build/CMakeFiles/hw_triangle.dir
-/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/program-design/hw-triangle/build/CMakeFiles/edit_cache.dir
-/Users/syqwq-omg/syqwq-workspace/single-stuff/Cpp/program-design/hw-triangle/build/CMakeFiles/rebuild_cache.dir
