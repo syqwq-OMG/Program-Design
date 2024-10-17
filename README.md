@@ -11,7 +11,11 @@ QwQ
   1. judge whether 3 numbers can make up a triangle
   2. tell the exact index of a given date in that year
 
-- **Oct.12th 2024**
+- **Oct. 12th 2024**
 
   1. use py to print *rhombus* with `*` on the screen
   2. use c to calculate sqrt of a given x with **dichotomy**
+
+- **Oct. 17th 2024**
+  1. use py to unique a list and return some info about original array
+  2. use py to classfiy characters in a string and return the most frequent character type
