@@ -19,3 +19,7 @@ QwQ
 - **Oct. 17th 2024**
   1. use py to unique a list and return some info about original array
   2. use py to classfiy characters in a string and return the most frequent character type
+
+- **Oct. 22nd 2024**
+  1. use *set*, *list*, *dict* to finish the vote fking problem
+  2. make a stupid dict program
