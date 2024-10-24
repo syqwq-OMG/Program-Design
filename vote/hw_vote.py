@@ -92,7 +92,7 @@ for vote_group in vote_all:
     valid_votes += [vote for vote in vote_group if vote != invalid]
 
 candidates = set(valid_votes)
-for candidate in list(candidates):
+for candidate in candidates:
     candidate_vote_num = valid_votes.count(candidate)
     candidate_vote_rate = candidate_vote_num / len(valid_votes)
     names_rates_nums[candidate] = (candidate_vote_rate, candidate_vote_num)
