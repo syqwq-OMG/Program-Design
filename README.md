@@ -23,3 +23,6 @@ QwQ
 - **Oct. 22nd 2024**
   1. use *set*, *list*, *dict* to finish the vote fking problem
   2. make a stupid dict program
+
+- **Oct. 28th 2024**
+  1. learn array and pointer in *c* e.g. `(type *)malloc(size_t)` AwA

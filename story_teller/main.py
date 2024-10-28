@@ -1,5 +1,5 @@
-from random import choice, choices
 from collections import Counter
+from random import choice, choices
 from typing import List, Tuple
 
 
@@ -9,7 +9,7 @@ def clean2tokens(s: str, tklen: int = 2) -> List[Tuple[str, ...]]:
     for punc in punctuations:
         s = s.replace(punc, "")
     s = s.split()
-    tks = [tuple(s[i: i + tklen]) for i in range(len(s) - tklen + 1)]
+    tks = [tuple(s[i : i + tklen]) for i in range(len(s) - tklen + 1)]
     return tks
 
 
@@ -18,7 +18,7 @@ def generate(s: str, tklen: int, psglen: int) -> str:
     token_freq = Counter(tokens)
 
     bg_token = choice(tokens)
-    output = ' '.join(bg_token)
+    output = " ".join(bg_token)
 
     last_words = bg_token[1:]  # Get the last words to form the context
     for _ in range(psglen - 1):
@@ -32,21 +32,23 @@ def generate(s: str, tklen: int, psglen: int) -> str:
 
         # Introduce some randomness in selection
         top_freq = token_freq[tks_bg_with_lw[0]]
-        weighted_choices = [tk for tk in tks_bg_with_lw if token_freq[tk] >= top_freq // 2]
-        next_token = choices(weighted_choices, weights=[token_freq[tk] for tk in weighted_choices])[0]
+        weighted_choices = [tk for tk in tks_bg_with_lw if token_freq[tk] >= top_freq]
+        next_token = choices(
+            weighted_choices, weights=[token_freq[tk] for tk in weighted_choices]
+        )[0]
 
         last_words = next_token[1:]  # Update last words
-        output += ' ' + last_words[-1]  # Add the next word to output
+        output += " " + last_words[-1]  # Add the next word to output
 
     return output
 
 
-if __name__ == '__main__':
-    with open('news.txt', encoding='utf-8', mode='r') as f:
+if __name__ == "__main__":
+    with open("news.txt", encoding="utf-8", mode="r") as f:
         source = f.read()
 
     for _ in range(20):
         token_len, passage_len = 3, 50
         output_passage = generate(source, token_len, passage_len)
         print(output_passage)
-        print('=' * 15)
+        print("=" * 15)
