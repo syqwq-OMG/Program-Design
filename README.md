@@ -26,3 +26,6 @@ QwQ
 
 - **Oct. 28th 2024**
   1. learn array and pointer in *c* e.g. `(type *)malloc(size_t)` AwA
+
+- **Nov. 7th 2024**
+  1. finish substring, caesar, array_insert
