@@ -29,3 +29,6 @@ QwQ
 
 - **Nov. 7th 2024**
   1. finish substring, caesar, array_insert
+
+- **Nov. 19th 2024**
+  1. finish findcenter in c
