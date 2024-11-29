@@ -1,4 +1,5 @@
 # Program-Design
+
 QwQ
 - **Oct. 2nd 2024** 
   
@@ -32,3 +33,7 @@ QwQ
 
 - **Nov. 19th 2024**
   1. finish findcenter in c
+  2. finish chem_data, conv
+
+- **Nov. 29th 2024**
+  1. finish 3balls(basic linear DP) and binary_search_insert in c
