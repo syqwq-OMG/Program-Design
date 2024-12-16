@@ -37,3 +37,9 @@ QwQ
 
 - **Nov. 29th 2024**
   1. finish 3balls(basic linear DP) and binary_search_insert in c
+
+- **Dec. 9th 2024**
+  1. finish bubble sort in c
+
+- **Dec. 16th 2024**
+  1. finish quicksort in c
