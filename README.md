@@ -43,3 +43,6 @@ QwQ
 
 - **Dec. 16th 2024**
   1. finish quicksort in c
+
+- **Dec. 29th* 2024*
+  1. finish novel_detective in py as the end-course proj
